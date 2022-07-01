@@ -18,5 +18,5 @@ putchar(CH);
 CH++;
 }
 putchar('\n');
-return (ch);
+return (0);
 }
