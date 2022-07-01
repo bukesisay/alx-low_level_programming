@@ -1,18 +1,18 @@
 #include<stdio.h>
-
-int main()
+/**
+ *main- is function
+ *description- alphabet game
+ */
+int main(void)
 {
-
-  char ch = 'a';
-  if (ch != 'q' && 'e')
-  {
-    while (ch <= 'z')
-      {
-
-	putchar(ch);
-	ch++;
-      }
-   }
-  return 0;
-
+char ch = 'a';
+if (ch != 'q' && 'e')
+{
+while (ch <= 'z')
+{
+putchar(ch);
+ch++;
+}
+}
+return (0);
 }
