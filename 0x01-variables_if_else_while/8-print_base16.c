@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  *main - is funtion
  *Return: ch
@@ -14,11 +13,11 @@ char a = 'a';
 putchar(n + '0');
 n++;
 }
- while (a <= 'f')
-   {
-     putchar(a);
-     a++;
-   }
+while (a <= 'f')
+{
+putchar(a);
+a++;
+}
 putchar('\n');
 return (0);
 }
