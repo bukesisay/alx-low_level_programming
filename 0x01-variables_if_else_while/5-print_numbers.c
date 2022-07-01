@@ -1,4 +1,4 @@
-#include <studio.h>
+#include <stdio.h>
 
 /**
  *main - is funtion
@@ -7,12 +7,12 @@
 
 int main(void)
 {
-  int n = 0;
-  while(n<10)
-    {
-      putchar(n)
-	n++;
-    }
-  putchar('\n');
-  return (0);
+int n = 0;
+while(n<10)
+{
+putchar(n)
+n++;
+}
+putchar('\n');
+return (0);
 }
