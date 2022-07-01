@@ -4,7 +4,7 @@ int main()
 {
 
   char ch = 'a';
-  if (ch != q && e)
+  if (ch != 'q' && 'e')
   {
     while (ch <= 'z')
       {
