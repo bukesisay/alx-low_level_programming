@@ -1,14 +1,18 @@
 #include<stdio.h>
-
-int main()
+/**
+ *main- function
+ *Return: main
+ */
+int main(void)
 {
-  char ch = 'a';
+char ch = 'a';
 
-  while(ch <= 'z')
-    {
-      putchar(ch);
-      ch++;
-    }
-  return 0;
+while (ch <= 'z')
+{
+putchar(ch);
+ch++;
+}
+putchar('\n');
+return (ch);
 
 }
