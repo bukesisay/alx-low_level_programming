@@ -14,7 +14,7 @@ char a = 'a';
 putchar(n + '0');
 n++;
 }
- while ( a <= 'f')
+ while (a <= 'f')
    {
      putchar(a);
      a++;
