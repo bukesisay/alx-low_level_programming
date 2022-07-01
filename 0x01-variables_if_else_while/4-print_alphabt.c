@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include <string.h>
 /**
 *main - is function
 *Return: ch
@@ -11,7 +10,7 @@ char ch = 'a';
 {
 while (ch <= 'z')
 {
-if (!strcmp(&ch,&'e'))
+  if ((ch!='e') && (ch!='E'))
 putchar(ch);
 ch++;
 }
