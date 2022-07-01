@@ -10,7 +10,7 @@ char ch = 'a';
 {
 while (ch <= 'z')
 {
-if ((ch != 'e') && (ch != 'E') && (ch != 'q') && (ch != 'Q'))
+  if ((ch != 'e') && (ch != 'E') && (ch != 'q') && (ch != 'Q'))
 putchar(ch);
 ch++;
 }
