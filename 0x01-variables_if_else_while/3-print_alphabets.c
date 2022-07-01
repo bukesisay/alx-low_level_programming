@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int main(void)
+int main()
 {
 
   char ch='a';
@@ -8,13 +8,13 @@ int main(void)
   
   while(ch <= 'z')
     {
-      putchar("%c ", ch);
+      putchar(ch);
       ch++;
 
     }
   while(CH <= 'Z')
     {
-      putchar("%c ", CH);
+      putchar(CH);
       CH++;
     }
   return 0;
