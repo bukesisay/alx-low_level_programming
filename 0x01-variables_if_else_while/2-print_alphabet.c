@@ -13,6 +13,6 @@ putchar(ch);
 ch++;
 }
 putchar('\n');
-return (ch);
+return (0);
 
 }
