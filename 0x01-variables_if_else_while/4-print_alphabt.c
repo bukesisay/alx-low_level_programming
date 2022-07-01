@@ -14,5 +14,5 @@ putchar(ch);
 ch++;
 }
 }
-return (0);
+ putchar("/n");
 }
