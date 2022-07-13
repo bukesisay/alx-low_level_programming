@@ -27,5 +27,5 @@ src = start;
 for (; i < n; i++)
 *dest++ = *src++;
 
-return (temp);
+return ();
 }
