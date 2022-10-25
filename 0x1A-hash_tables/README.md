@@ -1,0 +1,1 @@
+This is a learning environment for hash table
